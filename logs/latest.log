@@ -1,0 +1,336 @@
+[23:46:33] [main/INFO]: IPSet is not enabled on this system. Attempting to install...
+[23:46:33] [main/INFO]: Warning: IPSet is either not installed, or XCord does not have ROOT access.
+[23:46:33] [main/INFO]: Warning: For maximum protection, IPSet comes highly recommended.
+[23:46:33] [main/WARN]: You're not using IPSet with the global-blacklist. It's highly recommended to use the IPSet option as this will result in FAR superior protection (If you're able to..)
+[23:46:33] [main/WARN]: You're not using IPSet with the DoS filter. It's highly recommended to use the IPSet option as this will result in FAR superior protection (If you're able to..)
+[23:46:33] [main/INFO]: XCord is running license validation...
+[23:46:33] [main/WARN]: XCord failed validation due to an error/timeout. Some features may not function properly, but the software will run regardless. 
+[23:46:33] [main/ERROR]: java.net.MalformedURLException: no protocol: # @http://51.222.176.2:2052/license
+[23:46:33] [main/ERROR]: 	at java.net.URL.<init>(Unknown Source)
+[23:46:33] [main/ERROR]: 	at java.net.URL.<init>(Unknown Source)
+[23:46:33] [main/ERROR]: 	at java.net.URL.<init>(Unknown Source)
+[23:46:33] [main/ERROR]: 	at g.<init>(Unknown Source)
+[23:46:33] [main/ERROR]: 	at net.md_5.bungee.BungeeCord.<init>(Unknown Source)
+[23:46:33] [main/ERROR]: 	at net.md_5.bungee.BungeeCordLauncher.main(Unknown Source)
+[23:46:33] [main/ERROR]: 	at net.md_5.bungee.Bootstrap.main(Unknown Source)
+[23:46:33] [main/INFO]: XCord has started.
+[23:46:33] [main/INFO]: XCord is attempting to load the native compression library
+[23:46:33] [main/INFO]: Attempting to load:: native-compress-xcord
+[23:46:33] [main/INFO]: Attempting to load:: native-compressor-installer
+[23:46:33] [main/INFO]: Warning: JavaZLib compression levels can only be between 0-9!
+[23:46:33] [main/INFO]: Attempting to load:: native-cipher
+[23:46:33] [main/INFO]: Using standard Java JCE cipher.
+[23:46:33] [main/INFO]: Using standard Java compressor.
+[23:46:33] [main/INFO]: Enabled Travertine (XCORD) version git:Travertine-Bootstrap:1.16-R0.5-SNAPSHOT:a24c106:158
+[23:46:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[23:46:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[23:46:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[23:46:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[23:46:33] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[23:46:33] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[23:46:33] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/WARN]: Error loading plugin Vulcan
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_361]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_361]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.BungeeCord.start(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.BungeeCordLauncher.main(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.Bootstrap.main(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_361]
+	... 13 more
+[23:46:33] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/INFO]: Loaded plugin BotSentry version 9.3-THANATOS by New Era Studios & Lahuca Software Development
+[23:46:33] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/WARN]: Forced host server pvp is not defined
+[23:46:33] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:33] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:35] [main/INFO]: Enabled plugin BotSentry version 9.3-THANATOS by New Era Studios & Lahuca Software Development
+[23:46:35] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:35] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:35] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:a24c106:158 by WaterfallMC
+[23:46:35] [nioEventLoopGroup-2-1/INFO]: Listening on /0.0.0.0:25565
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: java.io.IOException
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: 	at com.lahuca.botsentry.d.m.a(Unknown Source)
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: 	at com.lahuca.botsentry.d.m.a(Unknown Source)
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: 	at com.lahuca.botsentry.b.b.d.run(Unknown Source)
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: 	at net.md_5.bungee.scheduler.BungeeTask.run(Unknown Source)
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[23:46:36] [BotSentry Pool Thread #0/ERROR]: 	at java.lang.Thread.run(Unknown Source)
+[23:46:36] [BotSentry Pool Thread #13/INFO]: -------------------------------------------------------------
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |                                                           |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |      ____        _    _____            _                  |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |     |  _ \      | |  / ____|          | |                 |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |     | |_) | ___ | |_| (___   ___ _ __ | |_ _ __ _   _     |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |     |  _ < / _ \| __|\___ \ / _ \ '_ \| __| '__| | | |    |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |     | |_) | (_) | |_ ____) |  __/ | | | |_| |  | |_| |    |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |     |____/ \___/ \__|_____/ \___|_| |_|\__|_|   \__, |    |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |                                                  __/ |    |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |                                                 |___/     |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: |                                                           |
+[23:46:36] [BotSentry Pool Thread #13/INFO]: -------------------------------------------------------------
+[23:46:36] [BotSentry Pool Thread #13/INFO]: 
+[23:46:36] [BotSentry Pool Thread #13/INFO]: » Cloud config downloaded ?
+[23:46:36] [BotSentry Pool Thread #13/INFO]: » Black- and whitelist loaded into the RAM ?
+[23:46:36] [BotSentry Pool Thread #13/INFO]: 
+[23:46:36] [BotSentry Pool Thread #13/INFO]: (!) You are using an old BotSentry version, some things could not work at its finest.
+[23:46:36] [BotSentry Pool Thread #13/INFO]: 
+[23:46:36] [BotSentry Pool Thread #13/INFO]: Plugin coded by Lahuca Software Development and New Era Studios
+[23:46:36] [BotSentry Pool Thread #13/INFO]: 
+[23:46:36] [BotSentry Pool Thread #13/INFO]: -------------------------------------------------------------
+[23:47:01] [nioEventLoopGroup-3-3/INFO]: [hanh] disconnected with: Kicked whilst connecting to lobby: Your country is banned from this server
+[23:47:01] [nioEventLoopGroup-3-3/INFO]: [/127.0.0.1:58422|hanh] -> UpstreamBridge has disconnected
+[23:47:01] [nioEventLoopGroup-3-3/INFO]: [hanh|/127.0.0.1:58422] <-> ServerConnector [lobby] has disconnected
+[23:48:27] [nioEventLoopGroup-3-3/INFO]: [hanh] disconnected with: Kicked whilst connecting to lobby: Your country is banned from this server
+[23:48:27] [nioEventLoopGroup-3-3/INFO]: [/127.0.0.1:58571|hanh] -> UpstreamBridge has disconnected
+[23:48:27] [nioEventLoopGroup-3-3/INFO]: [hanh|/127.0.0.1:58571] <-> ServerConnector [lobby] has disconnected
+[23:51:37] [nioEventLoopGroup-3-8/WARN]: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@4e94ff, receiver=hanh), cancelled=false, tag=REGISTER) to listener com.lahuca.botsentry.bungee.l@afa531
+java.lang.NullPointerException: null
+	at com.lahuca.botsentry.bungee.l.a(Unknown Source) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_361]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.event.EventBus.post(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at q.channelRead(Unknown Source) ~[xCord.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_361]
+[23:51:37] [nioEventLoopGroup-3-8/INFO]: [/127.0.0.1:58817|hanh] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:51:37] [nioEventLoopGroup-3-8/WARN]: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@4e94ff, receiver=hanh), cancelled=false, tag=MC|Brand) to listener com.lahuca.botsentry.bungee.l@afa531
+java.lang.NullPointerException: null
+	at com.lahuca.botsentry.bungee.l.a(Unknown Source) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_361]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.event.EventBus.post(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at q.channelRead(Unknown Source) ~[xCord.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_361]
+[23:51:42] [nioEventLoopGroup-3-8/WARN]: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@4e94ff, receiver=hanh), cancelled=false, tag=BungeeCord) to listener com.lahuca.botsentry.bungee.l@afa531
+java.lang.NullPointerException: null
+	at com.lahuca.botsentry.bungee.l.a(Unknown Source) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_361]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.event.EventBus.post(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at q.channelRead(Unknown Source) ~[xCord.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_361]
+[23:51:47] [nioEventLoopGroup-3-8/WARN]: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@4e94ff, receiver=hanh), cancelled=false, tag=BungeeCord) to listener com.lahuca.botsentry.bungee.l@afa531
+java.lang.NullPointerException: null
+	at com.lahuca.botsentry.bungee.l.a(Unknown Source) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_361]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.event.EventBus.post(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at q.channelRead(Unknown Source) ~[xCord.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_361]
+[23:51:52] [nioEventLoopGroup-3-8/WARN]: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@4e94ff, receiver=hanh), cancelled=false, tag=BungeeCord) to listener com.lahuca.botsentry.bungee.l@afa531
+java.lang.NullPointerException: null
+	at com.lahuca.botsentry.bungee.l.a(Unknown Source) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_361]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_361]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_361]
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.event.EventBus.post(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at q.channelRead(Unknown Source) ~[xCord.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.channel.nio.NioEventLoop.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source) ~[xCord.jar:git:Travertine-Bootstrap:1.19-R0.1-SNAPSHOT:08d5b39:unknown]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_361]
+[23:51:57] [nioEventLoopGroup-3-8/INFO]: [/127.0.0.1:58817|hanh] -> UpstreamBridge has disconnected
+[23:51:57] [nioEventLoopGroup-3-8/INFO]: [/127.0.0.1:58817|hanh] <-> DownstreamBridge <-> [towny] has disconnected
